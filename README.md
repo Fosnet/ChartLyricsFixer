@@ -13,7 +13,7 @@
 
 ![image](https://user-images.githubusercontent.com/25564528/116819972-92a37100-ab6a-11eb-8b50-72876571f64a.png)
 
-3. Add new flags at suitable points for the lryics. Hyphens are marked with `=` signs.
+3. Add new flags at suitable points for the lyrics. Hyphens are marked with `=` signs.
 
 ![image](https://user-images.githubusercontent.com/25564528/116820018-c7afc380-ab6a-11eb-98ec-c3f3af078e9c.png)
 

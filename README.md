@@ -10,15 +10,15 @@
 ![image](https://user-images.githubusercontent.com/25564528/116819945-6d166780-ab6a-11eb-8f5f-1a1c3f9b969f.png)
 
 2. Place a `phrase_start` flag just before the lyrics begin.
-3. 
+
 ![image](https://user-images.githubusercontent.com/25564528/116819972-92a37100-ab6a-11eb-8b50-72876571f64a.png)
 
 3. Add new flags at suitable points for the lryics. Hyphens are marked with `=` signs.
-4. 
+
 ![image](https://user-images.githubusercontent.com/25564528/116820018-c7afc380-ab6a-11eb-98ec-c3f3af078e9c.png)
 
 4. Place a `phrase_end` flag at the end of the lyrics.
-5. 
+
 ![image](https://user-images.githubusercontent.com/25564528/116820070-00e83380-ab6b-11eb-9541-1d693cde2173.png)
 
 

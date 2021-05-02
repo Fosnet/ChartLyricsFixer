@@ -25,7 +25,9 @@
 ## Fixing lyrics
 1. After adding the lyrics, run `ChartLyricsFixer`.
 2. Choose a suitable input file by clicking on `Browse` and navigating to the appropriate chart.
+
 ![image](https://user-images.githubusercontent.com/25564528/116820154-6b996f00-ab6b-11eb-94a3-af9d0f91fe9a.png)
+
 3. Click `Fix lyrics`.
 
 

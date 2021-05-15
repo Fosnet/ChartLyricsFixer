@@ -40,7 +40,10 @@ def lyricise_file(file_name):
             else:
                 regex = re.compile(fr'^\s{{2}}[0-9]+\s=\sE\s"(?!(?:{"|".join(taken_words_list)})\b)')
                 line = regex.sub(fr'\g<0>lyric ', line)
-                line = line.replace('lyric lyric ', 'lyric ').replace('lyric lyric ', 'lyric ')  # removes duplicates in case of reruns
+                line = re.sub(r'(lyric\s)+', 'lyric ', line)  # removes duplicates in case of reruns
+                line = re.sub(r'\s+', ' ', line)  # removes double spaces
+                line = re.sub(r'\s"$', '"', line)  # removes spaces at ends of words
+
         lines[i] = line
 
     with open(file_name, 'w') as file:
